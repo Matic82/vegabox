@@ -28,7 +28,7 @@ window.addEventListener("load", function() {
                  *  3. definiraj spremenljivko za enoto (B kot Byte)
                  *  4. sestavi html div ki predstavlja posamezno datoteko
                  */
-                var datoteka = /* Koda gre sem ;*/
+                var datoteka = // /* Koda gre sem */
 
                 var velikost = // Koda gre sem */;
 
@@ -64,7 +64,7 @@ window.addEventListener("load", function() {
                  */
 				if (xhttp.responseText == "Datoteka izbrisana") {
 					window.location = /* Koda gre sem... */
-				} else {
+				}else {
 					// Koda gre sem...
 				}
                 // 3. Klici funkcijo ugasniCakanje()
