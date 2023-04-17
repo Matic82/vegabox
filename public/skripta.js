@@ -8,20 +8,21 @@ window.addEventListener("load", function() {
     var ugasniCakanje = function() {
         document.querySelector('.loading').style.display = 'none';
     }
-
+    if(id="nalozi"){
+        this.addEventListener(click);
+    }
     // Dodaj 'click' EventListener elementu z id="nalozi"
-    // Koda gre sem ...
+    
 
     // Pridobi seznam datotek
     var pridobiSeznamDatotek = function(event) {
         // Klic funkcije za cakanje
-        // Koda gre sem ...
+        prizgiCakanje();
         var xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function() {
             if(xhttp.readyState == 4 && xhttp.status == 200) {
                 var datoteke = JSON.parse(xhttp.responseText);
                 var datotekeHTML = document.querySelector('/* dodaj element z id dateteke */');
-
                 /** Z zanko ZA pojdi skozi seznam datotek in  izvedi naslednje korake:
                  *  1. določi spremenljivko, ki predstavlja datoteko
                  *  2. definiraj spremenljivko za velikost datoteke
