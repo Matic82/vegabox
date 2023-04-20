@@ -42,7 +42,6 @@ function posredujOsnovnoStran(odgovor) {
 }
 
 
-// TODO 3.0 Beri iz seznama datotek dataDir ter za vsako vrni ime in velikost.
 /**
  *  Posreduje seznam datotek, ki se nahajajo v mapi data.
  *  
@@ -99,8 +98,6 @@ function naloziDatoteko(zahteva, odgovor) {
     });
 }
 
-
-// TODO 5.0 Dopolni vsebino spodnje funkcije za posredovanje zahtevane datoteke od strežnika.
 /**
  *  Posreduje zahtevano datoteko uporabniku, če ta obstaja na strežniku.
  * 
